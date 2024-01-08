@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-y%1rghxryc(-q-eq#k34@ljls35y(h0lrgj#ez51#p(8%b@w4g
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['8000-rockypraxe-grip-sl7u023nqfq.ws-eu107.gitpod.io']
+ALLOWED_HOSTS = ['8000-rockypraxe-grip-tha0h5ot373.ws-eu107.gitpod.io']
 
 
 # Application definition
@@ -43,6 +43,7 @@ INSTALLED_APPS = [
     'allauth.account',
     'allauth.socialaccount',
     'home',
+    'products',
 
 ]
 
@@ -54,7 +55,7 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
-    'allauth.account.middleware.AccountMiddleware',
+    # 'allauth.account.middleware.AccountMiddleware',
 ]
 
 ROOT_URLCONF = 'grip_shop.urls'
