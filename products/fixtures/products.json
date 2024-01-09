@@ -1,0 +1,222 @@
+[{
+    "pk": 1,
+    "model": "products.product",
+    "fields": {
+        "sku": "BOX1111111",
+        "name": "Venum Boxing Gloves Contender 2.0",
+        "description": "With a modern design, the Venum Contender Boxing Glove 2.0 generation offers the perfect combination of compactness and practicality. With new injection padding and a better finish, the Contender 2.0 gloves will give you the self-confidence to increase your performance.",
+        "price": 45.00,
+        "category": 7,
+        "rating": 4.6,
+        "image_url": "media/box_black.jpg",
+        "image": "box_black.jpg"
+    }
+}, {
+    "pk": 2,
+    "model": "products.product",
+    "fields": {
+        "sku": "BOX1111112",
+        "name": "Venum Dragon's Flight Boxing Gloves - Black/Bronze",
+        "description": "Dragon's Flight Boxing Gloves are perfect for Boxing or Muay Thai. Designed with triple density foam, they absorb impact perfectly and effectively protect your hands and wrist. Comfort is also a key point, with an excellent grip and an effective velcro closure system. Aesthetically, the rendering of the Asian Dragon is simply breathtaking. A stylish choice for your workouts!",
+        "price": 89.00,
+        "category": 7,
+        "rating": 4.8,
+        "image_url": "media/box_gold.jpg",
+        "image": "box_gold.jpg"
+    }
+}, {
+    "pk": 3,
+    "model": "products.product",
+    "fields": {
+        "sku": "GF1111113",
+        "name": "Nike Tour Classic 4 Men's Golf Glove",
+        "description": "Made from soft leather, this left-handed golf glove is designed for an excellent fit and premium durability. Extra breathable with more perforations at the fingers and the back of the hand than previous versions, this glove is comfortable enough for long days on the green.",
+        "price": 34.00,
+        "category": 4,
+        "rating": 5,
+        "image_url": "media/nike_white_deals.webp",
+        "image": "nike_white_deals.webp"
+    }
+}, {
+    "pk": 4,
+    "model": "products.product",
+    "fields": {
+        "sku": "GF1111114",
+        "name": "Ping Mens Tour Golf Glove",
+        "description": "Pre-curved fingers engineered for a natural fit & feel Solite® Premium Cabretta Leather with Micro-Pur™ technology is engineered for the ultimate in feel, softness and performance. ",
+        "price": 45.00,
+        "category": 8,
+        "rating": 4.7,
+        "image_url": "media/ping_white_new.jpg",
+        "image": "ping_white_new.jpg"
+    }
+}, {
+    "pk": 5,
+    "model": "products.product",
+    "fields": {
+        "sku": "GYM1111115",
+        "name": "RDX F6 Fitness Gloves",
+        "description": "Camouflaged in grip and strength the Sublimation F6 Gloves were made for you to get the best grip in all your gym work. Designed with one thing in mind, to give you the utmost comfort you could imagine from a grueling and teeth grinding workout to lifting heavy weights. Our latest in weight lifting patent pending gym gloves are designed for easy to wear, powerful in grip and highly practical use.",
+        "price": 18.00,
+        "category": 5,
+        "rating": 5,
+        "image_url": "media/rdx_camo.png",
+        "image": "rdx_camo.png"
+    }
+}, {
+    "pk": 6,
+    "model": "products.product",
+    "fields": {
+        "sku": "WRK1111116",
+        "name": "RDX Weight Lifting Gloves Gym Workout",
+        "description": "Full Finger Touch Screen, Breathable Anti Slip Padded Palm Protection, Fitness Strength Training Powerlifting HIIT WOD Exercise. NON-SLIP SILICONE GRIP WITH FOAM is strategically fixed in the palm area to provide support by improving grip. The foam lessens the brunt of force to the palms by buffering the impact from the apparatus.",
+        "price": 18.00,
+        "category": 6,
+        "rating": 4.1,
+        "image_url": "media/rdx_crosfit_women.jpg",
+        "image": "rdx_crosfit_women.jpg"
+    }
+}, {
+    "pk": 7,
+    "model": "products.product",
+    "fields": {
+        "sku": "WRK1111118",
+        "name": "Reebok Mens CrossFit Training Gloves Grey Camo",
+        "description": "Reebok CrossFit training gloves designed to enhance grip and comfort. Features mesh and laser-cut holes to the backhand to manage heat and moisture and forehand padding for comfort.",
+        "price": 44.00,
+        "category": 6,
+        "rating": 4.9,
+        "image_url": "media/reebok_crosfit_grey_camo.jpg",
+        "image": "reebok_crosfit_grey_camo.jpg"
+    }
+}, {
+    "pk": 8,
+    "model": "products.product",
+    "fields": {
+        "sku": "WRK1111118",
+        "name": "Reebok Men's Crossfit Gloves White",
+        "description": "Reebok has become a leader in CrossFit innovation and Reebok Men’s CrossFit Gloves are no exception.  Dozens of CrossFit athletes protected their hands at this years Reebok CrossFit Games with Reebok CrossFit Gloves.  Version 2 of Reebok’s Men’s CrossFit Gloves are best for any and all CrossFit movements, especially those that damage hands easily.  The are built for endurance, but aren’t bulky like other traditional gym gloves.",
+        "price": 45.00,
+        "category": 6,
+        "rating": 4.8,
+        "image_url": "media/reebok_crosfit_white.jpg",
+        "image": "reebok_crosfit_white.jpg"
+    }
+}, {
+    "pk": 9,
+    "model": "products.product",
+    "fields": {
+        "sku": "WRK1111119",
+        "name": "Reebok Women's Crossfit Gloves ",
+        "description": "Your WOD has met its equal, Reebok CrossFit Gloves will protect your hands from any CrossFit workout you can throw at them.  These new and improved Reebok CrossFit Gloves, will give you some of the most natural feeling workouts next to bare hands.  Perforated sheepskin leather and double reinforced high impact zones, on the thumb and palm which makes for one of the most durable gloves on the market.",
+        "price": 30.00,
+        "category": 6,
+        "rating": 4.4,
+        "image_url": "media/reebok_crosfit_women.jpg",
+        "image": "reebok_crosfit_women.jpg"
+    }
+}, {
+    "pk": 10,
+    "model": "products.product",
+    "fields": {
+        "sku": "GYW1111121",
+        "name": "Reebok Fitness Women's Pink L Fitness Gloves",
+        "description": "Fit for any training regime, Reebok Fitness Gloves deliver comfort and grip for top performance. Made from breathable Lycra with an Amara suede palm, the gloves combine protection with a natural feel for weighted and bodyweight workouts.",
+        "price": 15.00,
+        "category": 5,
+        "rating": 4.8,
+        "image_url": "media/reebok_pink.jpg",
+        "image": "reebok_pink.jpg"
+    }
+}, {
+    "pk": 11,
+    "model": "products.product",
+    "fields": {
+        "sku": "GYM1111131",
+        "name": "Reebok Men's Weight Lifting Workout Gloves",
+        "description": "Reebok Men's Performance Weightlifting Gloves protect and strengthen your fingers, hands, and palms so you can take your workout to the next level. The light, padded material provides extra comfort and reduces calluses, rips, and tears during high intensity workouts.",
+        "price": 15.00,
+        "category": 1,
+        "rating": 4.7,
+        "image_url": "media/reebok_soft.jpg",
+        "image": "reebok_soft.jpg"
+    }
+}, {
+    "pk": 12,
+    "model": "products.product",
+    "fields": {
+        "sku": "GYM1111141",
+        "name": "Reebok Men's Leather Lifting Gloves",
+        "description": "Reebok Men's Leather Lifting Gloves protect and strengthen your fingers, hands, and palms so you can take your workout to the next level. The light, padded material provides extra comfort and reduces calluses, rips, and tears during high intensity workouts.",
+        "price": 30.00,
+        "category": 1,
+        "rating": 4.9,
+        "image_url": "media/reebok_strong.jpg",
+        "image": "reebok_strong.jpg"
+    }
+}, {
+    "pk": 13,
+    "model": "products.product",
+    "fields": {
+        "sku": "CLE1111151",
+        "name": "Mountain Bike Gloves Rockrider",
+        "description": "Make your hands comfortable and tough! They cover the entire hand - a must for mountain biking. Touchscreen-compatible, pairable gloves with foam padding on the palm.",
+        "price": 25.00,
+        "category": 3,
+        "rating": 4.6,
+        "image_url": "media/rockrider_orange_clearance.jpg",
+        "image": "rockrider_orange_clearance.jpg"
+    }
+}, {
+    "pk": 14,
+    "model": "products.product",
+    "fields": {
+        "sku": "MMA1111161",
+        "name": "Sparring Gloves Venum Challenger 3.0 - Black/Gold",
+        "description": "Venum Challenger 3.0 sparring gloves are particularly suitable for regular MMA training. These Venum sparring gloves have a high quality injected foam which offers optimal shock absorption, for better protection of the fighter and his opponent. The shape of the Challenger 3.0 sparring gloves facilitates the execution of grappling techniques. A neoprene interior helps the sweat evacuation for more comfort during the fight. Finally, the Challenger 3.0sparring gloves have a large Velcro closure system which ensures effective wrist support, to avoid any risk of injury.",
+        "price": 51.00,
+        "category": 2,
+        "rating": 5,
+        "image_url": "media/venom_gold_black.webp",
+        "image": "venom_gold_black.webp"
+    }
+}, {
+    "pk": 15,
+    "model": "products.product",
+    "fields": {
+        "sku": "MMA1111171",
+        "name": "Sparring Gloves Venum Challenger 3.0 - White/Black/Gold",
+        "description": "Venum Challenger 3.0 sparring gloves are particularly suitable for regular MMA training. These Venum sparring gloves have a high quality injected foam which offers optimal shock absorption, for better protection of the fighter and his opponent. The shape of the Challenger 3.0 sparring gloves facilitates the execution of grappling techniques. A neoprene interior helps the sweat evacuation for more comfort during the fight. Finally, the Challenger 3.0sparring gloves have a large Velcro closure system which ensures effective wrist support, to avoid any risk of injury.",
+        "price": 51.00,
+        "category": 2,
+        "rating": 5,
+        "image_url": "media/venom_gold_white.webp",
+        "image": "venom_gold_white.webp"
+    }
+}, {
+    "pk": 16,
+    "model": "products.product",
+    "fields": {
+        "sku": "MMA1111181",
+        "name": "Venum Impact 2.0 MMA Gloves - Black/White",
+        "description": "The Venum Impact 2.0 leather MMA gloves from Skintex are ergonomic, comfortable and high quality. The triple density foam keeps your hand safe from shock waves. Their curved shape fits perfectly the shape of the hand. You'll have a better fit for greater hitting power. The Venum Impact 2.0 MMA glove closure system provides a better fit. A one-handed closure is possible.",
+        "price": 56.00,
+        "category": 2,
+        "rating": 5,
+        "image_url": "media/venom_light_black.webp",
+        "image": "venom_light_black.webp"
+    }
+}, {
+    "pk": 17,
+    "model": "products.product",
+    "fields": {
+        "sku": "MMA1111191",
+        "name": "Venum Impact 2.0 MMA Gloves - Black/Gold",
+        "description": "The Venum Impact 2.0 leather MMA gloves from Skintex are ergonomic, comfortable and high quality. The triple density foam keeps your hand safe from shock waves. Their curved shape fits perfectly the shape of the hand. You'll have a better fit for greater hitting power. The Venum Impact 2.0 MMA glove closure system provides a better fit. A one-handed closure is possible.",
+        "price": 56.00,
+        "category": 2,
+        "rating": 5,
+        "image_url": "media/venom_light_gold.webp",
+        "image": "venom_light_gold.webp"
+    }
+}]
