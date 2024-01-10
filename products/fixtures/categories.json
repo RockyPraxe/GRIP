@@ -3,55 +3,55 @@
     "model": "products.category",
     "fields": {
         "name": "gym_man",
-        "friendly_name": "Gym Men's"
+        "label": "Gym Men's"
     }
 }, {
     "pk": 2,
     "model": "products.category",
     "fields": {
         "name": "mma",
-        "friendly_name": "MMA"
+        "label": "MMA"
     }
 }, {
     "pk": 3,
     "model": "products.category",
     "fields": {
         "name": "clearance",
-        "friendly_name": "Clearance"
+        "label": "Clearance"
     }
 }, {
     "pk": 4,
     "model": "products.category",
     "fields": {
         "name": "deals",
-        "friendly_name": "Deals"
+        "label": "Deals"
     }
 }, {
     "pk": 5,
     "model": "products.category",
     "fields": {
         "name": "gym_women",
-        "friendly_name": "Gym Women's"
+        "label": "Gym Women's"
     }
 }, {
     "pk": 6,
     "model": "products.category",
     "fields": {
         "name": "workout",
-        "friendly_name": "Workout"
+        "label": "Workout"
     }
 }, {
     "pk": 7,
     "model": "products.category",
     "fields": {
         "name": "box",
-        "friendly_name": "BOX"
+        "label": "BOX"
     }
 }, {
     "pk": 8,
     "model": "products.category",
     "fields": {
         "name": "new_arrivals",
-        "friendly_name": "New Arrivals"
+        "label": "New Arrivals"
     }
 }]
