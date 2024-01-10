@@ -21,8 +21,8 @@
         "price": 89.00,
         "category": 7,
         "rating": 4.8,
-        "image_url": "media/box_gold.jpg",
-        "image": "box_gold.jpg"
+        "image_url": "media/box_gold.webp",
+        "image": "box_gold.webp"
     }
 }, {
     "pk": 3,
