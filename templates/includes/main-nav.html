@@ -17,10 +17,10 @@
                 GYM 💪
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="clothing-link">
-                <a href="" class="dropdown-item"><strong>GYM MEN'S</strong></a>
-                <a href="" class="dropdown-item">GYM WOMEN'S</a>
-                <a href="" class="dropdown-item">OUTDOOR WORKOUT</a>
-                <a href="" class="dropdown-item">ALL FOR WORKOUT</a>
+                <a href="{% url 'products' %}?category=gym_man" class="dropdown-item"><strong>GYM MEN'S</strong></a>
+                <a href="{% url 'products' %}?category=gym_women" class="dropdown-item">GYM WOMEN'S</a>
+                <a href="{% url 'products' %}?category=workout" class="dropdown-item">OUTDOOR WORKOUT</a>
+                <a href="{% url 'products' %}?category=gym_man,workout,gym_women" class="dropdown-item">ALL FOR WORKOUT</a>
             </div>
         </li>
 
@@ -29,9 +29,9 @@
                 FIGHTERS 👊
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="homeware-link">
-                <a href="" class="dropdown-item">MMA</a>
-                <a href="" class="dropdown-item">BOX</a>
-                <a href="" class="dropdown-item">ALL FOR FIGHTERS</a>
+                <a href="{% url 'products' %}?category=mma" class="dropdown-item">MMA</a>
+                <a href="{% url 'products' %}?category=box" class="dropdown-item">BOX</a>
+                <a href="{% url 'products' %}?category=mma,box" class="dropdown-item">ALL FOR FIGHTERS</a>
             </div>
         </li>
 
@@ -40,10 +40,10 @@
                 Special Offers 🔥
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="specials-link">
-                <a href="" class="dropdown-item"><strong>NEW ARRIVALS</strong></a>
-                <a href="" class="dropdown-item">DEALS</a>
-                <a href="" class="dropdown-item">CLEARANCE</a>
-                <a href="" class="dropdown-item">All SPECIALS</a>
+                <a href="{% url 'products' %}?category=new_arrivals" class="dropdown-item"><strong>NEW ARRIVALS</strong></a>
+                <a href="{% url 'products' %}?category=deals" class="dropdown-item">DEALS</a>
+                <a href="{% url 'products' %}?category=clearance" class="dropdown-item">CLEARANCE</a>
+                <a href="{% url 'products' %}?category=clearance,deals,new_arrivals" class="dropdown-item">All SPECIALS</a>
             </div>
         </li>
     </ul>
