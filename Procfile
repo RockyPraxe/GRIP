@@ -1,1 +1,1 @@
-web: gunicorn grip_shop.wsgi:aplication
+web: gunicorn grip_shop.wsgi:application
