@@ -1,7 +1,13 @@
 <div class="collapse navbar-collapse" id="main-nav">
     <ul class="navbar-nav w-auto mx-auto">
+        <li class="nav-item d-block d-md-none">
+            <a class="logo-font font-weight-bold nav-link text-black mr-5" href="{% url 'home' %}" id="home-link">
+                Home
+            </a>
+        </li>
         <li class="nav-item dropdown">
-            <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="all-products-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="all-products-link"
+                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 All Products
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="all-products-link">
@@ -13,19 +19,22 @@
         </li>
 
         <li class="nav-item dropdown">
-            <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="clothing-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="clothing-link"
+                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 GYM 💪
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="clothing-link">
                 <a href="{% url 'products' %}?category=gym_man" class="dropdown-item"><strong>GYM MEN'S</strong></a>
                 <a href="{% url 'products' %}?category=gym_women" class="dropdown-item">GYM WOMEN'S</a>
                 <a href="{% url 'products' %}?category=workout" class="dropdown-item">OUTDOOR WORKOUT</a>
-                <a href="{% url 'products' %}?category=gym_man,workout,gym_women" class="dropdown-item">ALL FOR WORKOUT</a>
+                <a href="{% url 'products' %}?category=gym_man,workout,gym_women" class="dropdown-item">ALL FOR
+                    WORKOUT</a>
             </div>
         </li>
 
         <li class="nav-item dropdown">
-            <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="homeware-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="homeware-link"
+                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 FIGHTERS 👊
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="homeware-link">
@@ -36,14 +45,17 @@
         </li>
 
         <li class="nav-item dropdown">
-            <a class="logo-font font-weight-bold nav-link text-black" href="#" id="specials-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <a class="logo-font font-weight-bold nav-link text-black" href="#" id="specials-link" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
                 Special Offers 🔥
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="specials-link">
-                <a href="{% url 'products' %}?category=new_arrivals" class="dropdown-item"><strong>NEW ARRIVALS</strong></a>
+                <a href="{% url 'products' %}?category=new_arrivals" class="dropdown-item"><strong>NEW
+                        ARRIVALS</strong></a>
                 <a href="{% url 'products' %}?category=deals" class="dropdown-item">DEALS</a>
                 <a href="{% url 'products' %}?category=clearance" class="dropdown-item">CLEARANCE</a>
-                <a href="{% url 'products' %}?category=clearance,deals,new_arrivals" class="dropdown-item">All SPECIALS</a>
+                <a href="{% url 'products' %}?category=clearance,deals,new_arrivals" class="dropdown-item">All
+                    SPECIALS</a>
             </div>
         </li>
     </ul>
