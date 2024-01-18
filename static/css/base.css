@@ -10,10 +10,6 @@ body {
     font-family: 'Lato';
 }
 
-.text-404 {
-    color: yellow;
-}
-
 /* from Bulma */
 .icon {
     align-items: center;
