@@ -136,6 +136,10 @@ input[name='q']::placeholder {
     right: 36px;
 }
 
+footer {
+    background-color: #000;
+}
+
 /* Convenience classes - colors copied from Bootstrap */
 .arrow-primary {
     border-bottom-color: #007bff !important;
