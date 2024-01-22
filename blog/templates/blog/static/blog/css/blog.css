@@ -1,0 +1,79 @@
+/* Only Stylesheet for blog, article, post templates */
+
+.post-container {
+    margin-bottom: 20px;
+    width: 80%;
+    margin: auto;
+}
+
+.post-container img {
+    max-width: 100%;
+}
+
+.blog-img-responsive {
+    width: 400px;
+    height: 200px;
+    object-fit: cover;
+}
+
+h2 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.text-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+}
+
+.card-img-top {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+}
+
+.custom-div-height {
+    min-height: 350px;
+}
+
+.article-font-logo {
+    font-size: 8vw !important;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    line-height: 3em;
+}
+
+/* -------------------------------- Media Queries */
+@media (min-width: 768px) {
+    .article-font-logo {
+        font-size: 40px;
+    }
+}
+
+@media (min-width: 992px) {
+    .article-font-logo {
+        font-size: 60px;
+    }
+}
+
+@media (max-width: 576px) {
+    .custom-div-height {
+        min-height: 200px;
+    }
+
+    .body-header h1 {
+        font-size: 8vw !important;
+    }
+
+    .post-font-title h3 {
+        font-size: 20px !important;
+    }
+
+    .post-font-text {
+        font-size: 14px !important;
+    }
+}
