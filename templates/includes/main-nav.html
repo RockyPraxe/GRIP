@@ -51,12 +51,22 @@
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="specials-link">
                 <a href="{% url 'products' %}?category=new_arrivals" class="dropdown-item">NEW
-                        ARRIVALS</a>
+                    ARRIVALS</a>
                 <a href="{% url 'products' %}?category=deals" class="dropdown-item">DEALS</a>
                 <a href="{% url 'products' %}?category=clearance" class="dropdown-item">CLEARANCE</a>
                 <a href="{% url 'products' %}?category=clearance,deals,new_arrivals" class="dropdown-item">All
                     SPECIALS</a>
             </div>
+        </li>
+
+        <li class="nav-item dropdown">
+            <a class="logo-font font-weight-bold nav-link text-black" href="#" id="specials-link" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+                BLOG
+            </a>
+            <div class="dropdown-menu border-0" aria-labelledby="specials-link">
+                <a href="{% url 'blog' %}" id="blog-link" class="dropdown-item">NEW
+                    BLOG</a>
         </li>
     </ul>
 </div>
