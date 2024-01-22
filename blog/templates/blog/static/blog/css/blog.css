@@ -1,5 +1,9 @@
 /* Only Stylesheet for blog, article, post templates */
 
+.bg-white {
+    background-color: white;
+}
+
 .post-container {
     margin-bottom: 20px;
     width: 80%;
