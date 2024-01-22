@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://grip-e-shop-25bf5d916437.herokuapp.com/sitemap.xml
