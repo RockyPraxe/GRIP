@@ -25,7 +25,7 @@ class PostList(ListView):
     model = Post
     template_name = "blog/blog.html"
     context_object_name = "posts"
-    paginate_by = 2
+    paginate_by = 1
 
     def get_queryset(self):
         queryset = super().get_queryset().filter(status=1)
