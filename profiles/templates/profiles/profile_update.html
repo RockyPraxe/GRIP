@@ -17,7 +17,7 @@
 
 {% block content %}
 <div class="overlay"></div> <!-- Making overlay over the background image to white background instead -->
-<div class="container main-content-container h-75">
+<div class="container main-content-container">
     <div class="row">
         <div class="col">
             <hr>
@@ -26,8 +26,8 @@
         </div>
     </div>
     <div class="row">
-        <div class="col-12 col-lg-6 mb-5 userimage">
-            <p class="text-muted mb-4">User Image</p>
+        <div class="col-12 col-md-6 col-lg-6 mb-5 userimage">
+            <p class="text-muted">User Image</p>
             <div class="text-center mt-4">
                 {% if user.userprofile.profile_picture %}
                 <img src="{{ user.userprofile.profile_picture.url }}"
@@ -38,7 +38,7 @@
                 {% endif %}
             </div>
         </div>
-        <div class="col-12 col-lg-6 mb-5">
+        <div class="col-12 col-md-6 col-lg-6 mb-5">
             <p class="text-muted">User Information</p>
             <div class="order-history table-responsive">
                 <form action="{% url 'profile_update' %}" method="POST" enctype="multipart/form-data">
@@ -104,6 +104,6 @@
 {% endblock %}
 
 {% block postloadjs %}
-    {{ block.super }}
-        <script src="{% static 'profiles/js/countryfield.js' %}"></script>
+{{ block.super }}
+<script src="{% static 'profiles/js/countryfield.js' %}"></script>
 {% endblock %}

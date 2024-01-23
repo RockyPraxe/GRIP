@@ -20,3 +20,17 @@
 #id_default_country option:first-child {
     color: #aab7c4;
 }
+
+.responsive-profile-img {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+}
+
+@media (max-width:768px) {
+
+    .col-12.col-md-6.col-lg-4.mb-5.userimage,
+    .col-12.col-lg-6.mb-5.userimage {
+        text-align: center;
+    }
+}
