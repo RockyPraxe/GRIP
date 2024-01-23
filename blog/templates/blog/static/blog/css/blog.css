@@ -16,7 +16,7 @@
 
 .blog-img-responsive {
     width: 400px;
-    height: 200px;
+    height: 300px;
     object-fit: cover;
 }
 
@@ -38,17 +38,6 @@ h2 {
     width: 100%;
     aspect-ratio: 1 / 1;
     object-fit: cover;
-}
-
-.custom-div-height {
-    min-height: 350px;
-}
-
-.article-font-logo {
-    font-size: 8vw !important;
-    text-transform: uppercase;
-    letter-spacing: 4px;
-    line-height: 3em;
 }
 
 /* -------------------------------- Media Queries */
