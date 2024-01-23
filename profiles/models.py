@@ -19,6 +19,10 @@ class UserProfile(models.Model):
     default_county = models.CharField(max_length=80, null=True, blank=True)
     default_postcode = models.CharField(max_length=20, null=True, blank=True)
     default_country = CountryField(blank_label='Country ', null=True, blank=True)
+    first_name = models.CharField(max_length=20, blank=True)
+    last_name = models.CharField(max_length=20, blank=True)
+    bio = models.TextField(max_length=150, default="Currently no bio", blank=True)
+    profile_picture = models.ImageField(blank=True, upload_to='userprofile')
 
     def __str__(self):
         return self.user.username

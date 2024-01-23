@@ -30,10 +30,10 @@
             <p class="text-muted mb-4">User Image</p>
             <div class="text-center mt-4">
                 {% if user.userprofile.profile_picture %}
-                <img src="#"
+                <img src="{{ user.userprofile.profile_picture.url }}"
                     class="rounded-circle img-fluid responsive-profile-img" alt="Profile Picture">
                 {% else %}
-                <img src="#"
+                <img src="{% static 'images/userprofile-default-img.webp' %}"
                     class="rounded-circle img-fluid responsive-profile-img" alt="Default Profile Picture">
                 {% endif %}
             </div>

@@ -5,7 +5,13 @@ from .models import UserProfile
 class UserProfileForm(forms.ModelForm):
     class Meta:
         model = UserProfile
-        exclude = ('user',)
+        exclude = (
+            "user",
+            "bio",
+            "first_name",
+            "last_name",
+            "profile_picture",
+        )
 
     def __init__(self, *args, **kwargs):
         """
@@ -32,3 +38,35 @@ class UserProfileForm(forms.ModelForm):
                 self.fields[field].widget.attrs['placeholder'] = placeholder
             self.fields[field].widget.attrs['class'] = 'border-black rounded-0 profile-form-input'
             self.fields[field].label = False
+
+
+class UpdatePersonalInfoForm(forms.ModelForm):
+    """
+    User form for updating personal
+    information for user page
+    """
+    class Meta:
+        model = UserProfile
+        fields = (
+            "first_name",
+            "last_name",
+            "bio",
+            "profile_picture",
+        )
+
+        widgets = {
+                'bio': forms.Textarea(attrs={'style': 'height: 55px;'}),  # Adjust the height as needed
+            }
+
+    def __init__(self, *args, **kwargs):
+        super().__init__(*args, **kwargs)
+        placeholders = {
+            "first_name": "First Name",
+            "last_name": "Last Name",
+            "bio": "Something about Yourself",
+        }
+
+        for field_name, placeholder in placeholders.items():
+            self.fields[field_name].widget.attrs["placeholder"] = placeholder
+        
+        self.fields["profile_picture"].help_text = "Best image resolution is 512x512 and .webp format"
