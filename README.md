@@ -781,6 +781,52 @@ The steps to fork this repository are:
 
 ---
 
+<a name="credits"></a>
+## Credits
+
+##### Code Institute
+  - Boutique Ado walkthrough project
+
+##### Chat GPT
+  - For this project I had personally written blog articles focusing on SEO and related to the niche of this project.
+  - To save time and also to try out some AI resources I have used ChatGPT to write my blog articles. 
+  - These articles were not written by myself.
+
+[Back to Top of page](#contents)
+
+---
+
+<a name="content"></a>
+## Content & Resources
+  
+##### Django Documentation
+  - Read through the django documentation multiple times when trying to implement models and other content.
+  
+##### W3 Schools
+  - Used for reference throughout for simple css examples.
+
+##### Leonardo.ai
+  - Used to create images and logo for the website
+
+##### Favicon.ico
+  - Used to create the favicon from the logo
+  
+##### Code Institute
+  - Course content for portfolio project 5 helped greatly in being able to complete this project.
+  - I found the walkthroughs informative and well paced.
+  - Initial structure based heavily on the CI walkthrough until I got more comfortable with the framework and started to make it my own.
+
+##### Allan Bushell
+  - Cohort Facilitator,
+  - He provides us with lessons that give a different perspective on building a django e-commerce store and also with a lot of resources and similar projects.
+
+#### YouTube
+  - For example Codeacademy or Denis Ivy
+
+[Back to Top of page](#contents)
+
+---
+
 <a name="acknowlegements"></a>
 ## Acknowledgements
 
