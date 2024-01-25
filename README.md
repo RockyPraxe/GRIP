@@ -535,6 +535,111 @@ For the short term and to prevent spam, when a non logged in user trys to access
 
 ---
 
+<a name="left"></a>
+## Features left to Implement 
+
+#### Subscriptions
+My intention for this project was to implement subscriptions but due to time constraints it became unrealistic to implement them effectively. This will be one of the first options I intend to include upon developing this project further.
+
+#### User interaction features
+Features including allowing users to reply directly to each other through blog articles, possible even add threads that users can generate themselves to increase and develop a community.
+I would also like to add a notification system for users to be able to see replys, likes in a bell icon from their account.
+
+#### Frequently Bought Items
+In future iterations I would implement a Frequently added products section that would present itself on the initial cart page before checkout to help drive upsells.
+
+#### Product Reviews
+At present the products have a fixed rating set by the site admin which is not a true reflection of customer satisfaction. In the next iteration customers would be able to leave reviews on products they have successfully purchased once they are logged in. I will then calculate the average and return a star rating based on the float figure.
+
+#### Honey Pot spam filter for contact form
+This is a basic feature to prevent bot spam messages and while it is not 100% effective, coupled with other features it would reduce spam to close to zero. 
+This works as a hidden input value on the form that the front end user cannot click. However bots can and generally do. If the option is ticked the submitted form is either not forwarded to staff or the form is disabled completely.
+
+#### E-mail forwarding for all site actions.
+As I have a dropdown model for the contact form, depending on the size of the business I would like to forward the emails to specific email addresses monitored by different staff departments. For example the complaints emails go to the complaints teams to ensure quick responses and reduce friction.
+
+#### Order Tracking
+Going forward I would like to add an order tracking system for the user profile section. Once order placed the merchant can move the product to dispatched and add tracking that can then be viewed by the customer from within their account and also receive an email with the updates.
+
+#### Front end order tracking and accounts management for business
+This would involve creating a front end accounts page to display orders and graphs for employees of the business beyond django cms. 
+These would allow the business to track orders over days, months and year on year as well as track most popular products.
+
+[Back to Top of page](#contents)
+
+---
+
+
+<a name="tech"></a>
+##  Technology Used
+
+### Html
+
+ - Used to structure my website
+
+### CSS
+
+ - Custom CSS was written on large chunks of this site to make it as close to the wireframes as I felt it needed to be.
+
+### JavaScript
+
+ -  Used to add timeout function for messages as well as to enable the menu on index.html
+
+### Python
+
+ -  Used for the logic in this project.
+
+### Django
+
+ -  Framework used to build this project. Provides a ready installed admin panel and includes many helper template tags that make writing code quick and efficient.
+
+### Font Awesome
+
+ -  Icon library used
+
+### Bootstrap 4
+ - Used as the base front end framework to work alongside Django
+
+### Jinja Templating with Django
+ - Used to render logic within html documents and make the website more dynamic.
+
+### GitHub
+ - Used to store the code for this project & for the projects Kanban board used to complete it.
+
+### Heroku
+ - Used to host and deploy this project
+
+### Heroku PostgreSQL
+ - Heroku PostgreSQL was used as the database for this project during development and in production.
+
+### Git
+- Used for version control throughout the project and to ensure a good clean record of work done was maintained.
+
+### AWS S3 and IAM
+- Used to host static and media files for this project and IAM for the permissions based roles for accessing the S3 buckets.
+
+### Django-Crispy-Forms
+- Used to style the forms in this project.
+
+### Leonardo.ai
+- Used to generate pictures for the website
+
+[Back to Top of page](#contents)
+
+---
+
+<a name="bugs"></a>
+## **Bugs**
+
+<details>
+<summary>Bugs</summary>
+<br>
+
+</details>
+
+
+[Back to Top of page](#contents)
+
 ---
 
 <a name="deployment"></a>
@@ -675,3 +780,20 @@ The steps to fork this repository are:
 [Back to Top of page](#contents)
 
 ---
+
+<a name="acknowlegements"></a>
+## Acknowledgements
+
+### Alan Bushell
+> Cohort Facilitator,
+Our connection with code institute. Thank you for his approach, advice and help! You deserve one big thank you !
+
+### Dario Carrasquel
+> My mentor who provided me with constructive feedback and guidance throughout.
+
+### The CI tutor support team
+> The Tutor support team in the Code Institute were always on hand to answer any queries or questions if things got too clouded.
+> I couldn't have done it without your help
+> Regardless I do appreciate their guidance and support.
+
+[Back to Top of page](#contents)
