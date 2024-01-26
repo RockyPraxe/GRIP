@@ -820,10 +820,32 @@ Please see a table of acronyms used throughout testing:
   
   </details>
 
-> profile.html
+> blog.html
 
 <details>
-  <summary>Profile.html Screenshot</summary>
+  <summary>Blog.html Screenshot</summary>
+  <br>
+  
+![Google Lighthouse Profile](media/readme/lighthouse-profiles.png)
+  
+  </details
+
+ > products.html
+
+<details>
+  <summary>Products.html Screenshot</summary>
+  <br>
+  
+![Google Lighthouse Profile](media/readme/lighthouse-profiles.png)
+  
+  </details 
+
+### Mobile
+
+> index.html
+
+<details>
+  <summary>Index.html Screenshot</summary>
   <br>
   
 ![Google Lighthouse Profile](media/readme/lighthouse-profiles.png)
@@ -841,8 +863,18 @@ Please see a table of acronyms used throughout testing:
 ![W3 HTML Validation](media/readme/w3-html-validator.png)
   
   </details>
+
+### profile.html
+
+<details>
+  <summary>W3 HTML Validation Screenshot</summary>
+    </br>
+
+![W3 HTML Validation](media/readme/w3-html-validator.png)
   
-#### Result: No Errors
+  </details>
+  
+#### Result: Errors caused by django links to other pages and curly brackets.
 
 ### CSS Validation
 
@@ -865,6 +897,12 @@ Please see a table of acronyms used throughout testing:
 <details>
 <summary>Bugs</summary>
 <br>
+
+| Bug |Outcome  |
+|--|--|
+|User getting 500 error when trying to sign up| Resolved |
+|User getting 500 error when trying to sign in| Resolved |
+|User getting 500 error when trying to access blog| Resolved |
 
 </details>
 
