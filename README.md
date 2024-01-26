@@ -197,9 +197,9 @@ This was the suspected preproject planning database structure. As the project wa
 
 ![Wireframe Index](media/readme/.png)
 
-![Wireframe Mobile](media/readme/.png)
-
 ![Wireframe Products](media/readme/.png)
+
+![Wireframe Product Detail](media/readme/.png)
 </details>
 
 [Back to Top of page](#contents)
