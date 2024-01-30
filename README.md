@@ -197,9 +197,15 @@ This was the suspected preproject planning database structure. As the project wa
 
 ![Wireframe Index](media/readme/home.jpg)
 
+<<<<<<< HEAD
 ![Wireframe Products](media/readme/all_products.jpg)
 
 ![Wireframe Product Detail](media/readme/product_detail.jpg)
+=======
+![Wireframe Products](media/readme/.png)
+
+![Wireframe Product Detail](media/readme/.png)
+>>>>>>> b07fc676135141a1e3941f71a715d954a91b64ec
 </details>
 
 [Back to Top of page](#contents)
@@ -627,6 +633,269 @@ These would allow the business to track orders over days, months and year on yea
 [Back to Top of page](#contents)
 
 ---
+<a name="testing"></a>
+## Testing
+
+
+### Testing Phase
+
+#### Manual Testing
+
+> If the intended outcome completes then this will be flagged as pass. If it does not then this is a fail.
+
+Please see a table of acronyms used throughout testing:
+
+| Key | Value |
+|--|--|
+|NLI|Non logged in user|
+|LIU|Logged in customer who does not have staff permissions.|
+|SUP|Superuser or staff permissions
+
+
+<details>
+<summary>Account Registration Tests </summary>
+<br>
+
+| Test |Result  |
+|--|--|
+|User can create an account | Pass |
+|Verified User can log into account| Pass|
+|User can log out of account|Pass|
+|User is notified of logging in to account|Pass|
+|User is notified of logging out of account|Pass|
+|User receives email verification email|Pass|
+
+</details>
+
+---
+
+<details>
+<summary>User Navigation Tests</summary>
+<br>
+
+| Test |Result  |
+|--|--|
+|User can navigate to product| Pass |
+|User can access product details| Pass|
+|User can add a product to cart|Pass|
+|User can navigate back to products|Pass|
+|User can add additional products to cart|Pass|
+|User can add multiple quantities of a product |Pass|
+|User can navigate to cart|Pass|
+|Logged in User can navigate to the profile section of accounts|Pass|
+|User can access their saved address information|Pass|
+|User can access past orders|Pass|
+|User can access the blog section of the page|Pass|
+|User can access specific blogs|Pass|
+|User can access the contact page and form|Pass|
+|All links on footer open to correct pages|Pass|
+|All links on Heading Navigation open to correct option|Pass|
+
+</details>
+
+---
+
+<details>
+<summary>Account Security Tests</summary>
+<br>
+
+| Test |Result  |
+|--|--|
+|NLI cannot access profile page| Pass|
+|NLI cannot access admin panel|Pass|
+|NLI cannot access products management|Pass|
+|NLI cannot submit the contact form|Pass|
+|LIU cannot access admin panel|Pass|
+|LIU cannot access products management|Pass|
+|LIU cannot edit products|Pass|
+
+</details>
+
+--- 
+
+<details>
+<summary>Profile Tests</summary>
+<br>
+
+| Test |Result|
+|--|--|
+|NLI cannot access profile page | Pass |
+|LIU can access profile page|Pass|
+|LIU can see their details on the accounts home page|Pass|
+|LIU can update their first name|Pass|
+|LIU can update their last name|Pass|
+|LIU can update their email|Pass|
+|LIU can update their phone number|Pass|
+|LIU can navigate to their shipping information|Pass|
+|LIU can update street address 1 and 2|Pass|
+|LIU can update town or city|Pass|
+|LIU can update county|Pass|
+|LIU can update postcode|Pass|
+|LIU can update country|Pass|
+|LIU can navigate to change profile image page|Pass|
+|LIU who does not have a personal image has the default image|Pass|
+|LIU can add an image to their profile|Pass|
+|LIU can change their profile image once they have one set |Pass|
+|LIU can remove a personal image entirely |Pass|
+
+</details>
+
+---
+
+<details>
+<summary>Admin Tests</summary>
+<br>
+
+| Test |Result  |
+|--|--|
+|SUP can access admin panel from the my account dropdown | Pass |
+|SUP can access add product page from my account dropdown|Pass|
+|SUP can see the edit product option on the products page|Pass|
+|SUP can see the delete option on the products page|Pass|
+|SUP can write blogs from the admin panel and publish them|Pass|
+|SUP can edit products and update all fields successfully|Pass|
+|SUP can delete products from the products page|Pass|
+
+</details>
+
+---
+
+<details>
+<summary>Site wide tests</summary>
+<br>
+
+| Test |Result  |
+|--|--|
+|NLI cannot access contact page| Pass |
+|LIU can submit contact form to business|Pass|
+|SUP can view submitted forms from the admin panel|Pass|
+|LIU receives notification the form has been submitted|Pass|
+|User can navigate to privacy policy|Pass|
+|User can navigate to shipping policy|Pass|
+|User can navigate to terms of use page|Pass|
+|Social links open up to the correct pages|Pass|
+|Social links open up in a new tab|Pass|
+
+</details>
+
+---
+
+<details>
+<summary>Payment Tests</summary>
+<br>
+
+| Test |Result  |
+|--|--|
+|NLI can successfully make a payment & order| Pass |
+|LIU can successfully make a payment & order| Pass|
+|All users receive an email confirmation of order on deployed site|Pass|
+|In development email confirmation is printed to terminal|Pass|
+|If payment is successful user will be redirected to order success page|Pass|
+|If order fails due to incorrect information being submitted order will not be submitted|Pass|
+|If there is an error when processing the order the site returns a 500 error without processing order|Pass|
+
+</details>
+
+---
+
+<details>
+<summary>Blog Tests</summary>
+<br>
+
+| Test |Result  |
+|--|--|
+|NLI can access blog pages| Pass |
+|LIU can access blog pages| Pass |
+|SUP can access and edit blog pages| Pass |
+  
+</details>
+
+---
+
+## Google Lighthouse Testing
+
+### Desktop
+
+> index.html
+
+<details>
+  <summary>Index.html Screenshot</summary>
+  <br>
+
+![Google Lighthouse Index](media/readme/lighthouse-index-updated.png)
+  
+  </details>
+
+> blog.html
+
+<details>
+  <summary>Blog.html Screenshot</summary>
+  <br>
+  
+![Google Lighthouse Profile](media/readme/lighthouse-profiles.png)
+  
+  </details
+
+ > products.html
+
+<details>
+  <summary>Products.html Screenshot</summary>
+  <br>
+  
+![Google Lighthouse Profile](media/readme/lighthouse-profiles.png)
+  
+  </details 
+
+### Mobile
+
+> index.html
+
+<details>
+  <summary>Index.html Screenshot</summary>
+  <br>
+  
+![Google Lighthouse Profile](media/readme/lighthouse-profiles.png)
+  
+  </details
+
+## HTML W3 Validation
+
+### index.html
+
+<details>
+  <summary>W3 HTML Validation Screenshot</summary>
+    </br>
+
+![W3 HTML Validation](media/readme/w3-html-validator.png)
+  
+  </details>
+
+### profile.html
+
+<details>
+  <summary>W3 HTML Validation Screenshot</summary>
+    </br>
+
+![W3 HTML Validation](media/readme/w3-html-validator.png)
+  
+  </details>
+  
+#### Result: Errors caused by django links to other pages and curly brackets.
+
+### CSS Validation
+
+<details>
+  <summary>W3 CSS Jigsaw Screenshot</summary>
+  </br>
+  
+![w3 Jigsaw CSS checker](media/readme/w3-css-jigsaw.png)
+
+</details>
+
+#### Result: No Errors
+
+[Back to Top of page](#contents)
+
 
 <a name="bugs"></a>
 ## **Bugs**
@@ -634,6 +903,12 @@ These would allow the business to track orders over days, months and year on yea
 <details>
 <summary>Bugs</summary>
 <br>
+
+| Bug |Outcome  |
+|--|--|
+|User getting 500 error when trying to sign up| Resolved |
+|User getting 500 error when trying to sign in| Resolved |
+|User getting 500 error when trying to access blog| Resolved |
 
 </details>
 
