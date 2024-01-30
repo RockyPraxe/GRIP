@@ -197,15 +197,11 @@ This was the suspected preproject planning database structure. As the project wa
 
 ![Wireframe Index](media/readme/home.jpg)
 
-<<<<<<< HEAD
 ![Wireframe Products](media/readme/all_products.jpg)
 
 ![Wireframe Product Detail](media/readme/product_detail.jpg)
-=======
-![Wireframe Products](media/readme/.png)
 
-![Wireframe Product Detail](media/readme/.png)
->>>>>>> b07fc676135141a1e3941f71a715d954a91b64ec
+
 </details>
 
 [Back to Top of page](#contents)
