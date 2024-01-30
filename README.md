@@ -818,7 +818,7 @@ Please see a table of acronyms used throughout testing:
   <summary>Index.html Screenshot</summary>
   <br>
 
-![Google Lighthouse Index](media/readme/lighthouse-index-updated.png)
+![Google Lighthouse Index](media/readme/lighthouse_index.png)
   
   </details>
 
@@ -828,7 +828,7 @@ Please see a table of acronyms used throughout testing:
   <summary>Blog.html Screenshot</summary>
   <br>
   
-![Google Lighthouse Profile](media/readme/lighthouse-profiles.png)
+![Google Lighthouse Blog](media/readme/lighthouse_blog.png)
   
   </details
 
@@ -838,7 +838,7 @@ Please see a table of acronyms used throughout testing:
   <summary>Products.html Screenshot</summary>
   <br>
   
-![Google Lighthouse Profile](media/readme/lighthouse-profiles.png)
+![Google Lighthouse Products](media/readme/lighthouse_products.png)
   
   </details 
 
@@ -850,7 +850,7 @@ Please see a table of acronyms used throughout testing:
   <summary>Index.html Screenshot</summary>
   <br>
   
-![Google Lighthouse Profile](media/readme/lighthouse-profiles.png)
+![Google Lighthouse Profile](media/readme/lighthouse_mobil.png)
   
   </details
 
@@ -862,7 +862,7 @@ Please see a table of acronyms used throughout testing:
   <summary>W3 HTML Validation Screenshot</summary>
     </br>
 
-![W3 HTML Validation](media/readme/w3-html-validator.png)
+![W3 HTML Validation](media/readme/index_html_w3.png)
   
   </details>
 
@@ -872,7 +872,7 @@ Please see a table of acronyms used throughout testing:
   <summary>W3 HTML Validation Screenshot</summary>
     </br>
 
-![W3 HTML Validation](media/readme/w3-html-validator.png)
+![W3 HTML Validation](media/readme/profile_html_w3.png)
   
   </details>
   
@@ -884,7 +884,7 @@ Please see a table of acronyms used throughout testing:
   <summary>W3 CSS Jigsaw Screenshot</summary>
   </br>
   
-![w3 Jigsaw CSS checker](media/readme/w3-css-jigsaw.png)
+![w3 Jigsaw CSS checker](media/readme/w3c_css_test.png)
 
 </details>
 
