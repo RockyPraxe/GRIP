@@ -51,7 +51,7 @@
 
 This was the suspected preproject planning database structure. As the project was being developed changes were made to the final project due to time contraints and project scope.
 
-![Lucid Diagram](media/readme/.png)
+![Lucid Diagram](media/readme/erd_datamodel.png)
 </details>
 
 ---
@@ -195,11 +195,11 @@ This was the suspected preproject planning database structure. As the project wa
 <summary> Wireframes </summary>
 <br>
 
-![Wireframe Index](media/readme/.png)
+![Wireframe Index](media/readme/home.jpg)
 
-![Wireframe Mobile](media/readme/.png)
+![Wireframe Products](media/readme/all_products.jpg)
 
-![Wireframe Products](media/readme/.png)
+![Wireframe Product Detail](media/readme/product_detail.jpg)
 </details>
 
 [Back to Top of page](#contents)
@@ -839,7 +839,7 @@ Our connection with code institute. Thank you for his approach, advice and help!
 
 ### The CI tutor support team
 > The Tutor support team in the Code Institute were always on hand to answer any queries or questions if things got too clouded.
-> I couldn't have done it without your help
+> I couldn't have done it without your help.
 > Regardless I do appreciate their guidance and support.
 
 [Back to Top of page](#contents)
