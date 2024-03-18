@@ -32,7 +32,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY', '')
 DEBUG = 'DEVELOPMENT' in os.environ
 
 
-ALLOWED_HOSTS = ['8000-rockypraxe-grip-tha0h5ot373.ws-eu107.gitpod.io', 'grip-e-shop-25bf5d916437.herokuapp.com', 'localhost']
+ALLOWED_HOSTS = ['8000-rockypraxe-grip-okat4l108t3.ws-eu110.gitpod.io', 'grip-e-shop-25bf5d916437.herokuapp.com', 'localhost']
 
 
 # Application definition
