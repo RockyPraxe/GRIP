@@ -68,5 +68,5 @@ class UpdatePersonalInfoForm(forms.ModelForm):
 
         for field_name, placeholder in placeholders.items():
             self.fields[field_name].widget.attrs["placeholder"] = placeholder
-        
+
         self.fields["profile_picture"].help_text = "Best image resolution is 512x512 and .webp format"
