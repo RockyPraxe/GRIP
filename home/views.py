@@ -14,7 +14,6 @@ def index(request):
     """
     View to return the index page
     """
-    posts = Post.objects.all()
     # Fetch the three newest posts for display
     latest_posts = Post.objects.order_by("-created_on")[:3]
     # new_arrivals = Product.objects.order_by("-created_at")
