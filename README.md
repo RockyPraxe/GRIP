@@ -856,27 +856,19 @@ Please see a table of acronyms used throughout testing:
 
 ## HTML W3 Validation
 
-### index.html
+### All Products, Home, Blog, Profile
 
 <details>
   <summary>W3 HTML Validation Screenshot</summary>
     </br>
 
-![W3 HTML Validation](media/readme/index_html_w3.png)
+![W3 HTML Validation](media/readme/fixing_html_errors_all_products.jpg)
+![W3 HTML Validation](media/readme/html_testing_update_home.png)
+![W3 HTML Validation](media/readme/html_testing_update_blog.png)
+![W3 HTML Validation](media/readme/html_testing_update_profile.png)
   
   </details>
 
-### profile.html
-
-<details>
-  <summary>W3 HTML Validation Screenshot</summary>
-    </br>
-
-![W3 HTML Validation](media/readme/profile_html_w3.png)
-  
-  </details>
-  
-#### Result: Errors caused by django links to other pages and curly brackets.
 
 ### CSS Validation
 
@@ -905,23 +897,6 @@ Please see a table of acronyms used throughout testing:
 |User getting 500 error when trying to sign up| Resolved |
 |User getting 500 error when trying to sign in| Resolved |
 |User getting 500 error when trying to access blog| Resolved |
-
-When testing the responsiveness of the footer on a PC for a mobile device, it was found that the logo covers the form for subscriptions. When checking the display via a real mobile phone, this problem does not exist and the footer is displayed correctly.
-
-<summary>Footer Test On Pc Screenshot</summary>
-  <br>
-
-![Mobile Version On PC](media/readme/footer_pc_mobile_version_home.png)
-
-<summary>Footer Mobile Screenshot</summary>
-  <br>
-
-![Mobile Version On Mobile-Home](media/readme/footer_onmobile.jpg)
-
-<summary>Footer Mobile Blog Screenshot</summary>
-  <br>
-
-![Mobile Version On Mobile-Blog](media/readme/footer_onmobile_blog.jpg)
 
 </details>
 
