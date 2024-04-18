@@ -63,7 +63,6 @@ body {
 .btn-outline-black:hover,
 .btn-outline-black:active,
 .btn-outline-black:focus {
-    /* background: black; */
     background: red;
     color: white !important;
 }
