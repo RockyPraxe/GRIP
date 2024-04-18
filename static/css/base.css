@@ -63,7 +63,8 @@ body {
 .btn-outline-black:hover,
 .btn-outline-black:active,
 .btn-outline-black:focus {
-    background: black;
+    /* background: black; */
+    background: red;
     color: white !important;
 }
 
@@ -198,25 +199,6 @@ input[name='q']::placeholder {
 #footer .credid-cards-box img {
     width: 50px;
     height: auto;
-}
-
-#footer .trust-company {
-    width: 200px;
-    position: relative;
-    margin-top: -200px;
-}
-
-.trust-company-box {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    text-align: center;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
 }
 
 #footer .copyright {
