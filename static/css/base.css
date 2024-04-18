@@ -43,7 +43,7 @@ body {
 }
 
 .shop-now-button {
-    background: black;
+    background: rgba(0, 0, 0, 0.7);
     color: white;
     min-width: 260px;
 }
@@ -73,7 +73,7 @@ body {
 .btn-black:hover,
 .btn-black:active,
 .btn-black:focus {
-    background: #222;
+    background: red;
     color: white;
 }
 
@@ -184,7 +184,7 @@ input[name='q']::placeholder {
 #footer ul li a,
 #footer p {
     /* color: var(--light-grey); */
-    color:goldenrod;
+    color: goldenrod;
 }
 
 #footer i {
