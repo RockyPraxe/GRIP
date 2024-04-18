@@ -15,8 +15,9 @@ class Post(models.Model):
     slug = models.SlugField(max_length=200, unique=True)
     excerpt = models.TextField(max_length=75, blank=True)
     content = models.TextField(max_length=300000, blank=True)
+    image_path = "images/no-product-img.png"
     featured_image = models.ImageField(
-        blank=True, upload_to="userprofile/", default="images/no-product-img.png"
+        blank=True, upload_to="userprofile/", default=image_path
     )
     author = models.ForeignKey(
         User, on_delete=models.CASCADE, related_name="blog_posts"
